@@ -18,6 +18,7 @@ vector<int> conv2vect(int i)
 }
 // Complete the extraLongFactorials function below.
 void extraLongFactorials(int n) {
+    //https://www.codechef.com/wiki/tutorial-small-factorials
     vector<int> a(200);
     a[0] = 1; //initialize the first index to 1
     int m = 1; //number of used digits in the array
